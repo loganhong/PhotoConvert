@@ -1,0 +1,13 @@
+﻿<Window x:Class="BatchPhotoConvert.ShowBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="窗口" Height="260" Width="460">
+    <Grid>
+        <Viewbox>
+            <TextBox x:Name="TxtMSG" HorizontalAlignment="Left" VerticalScrollBarVisibility="Visible" Width="420" Height="170" Margin="10,10,0,41"/>
+        </Viewbox>
+        <Viewbox>
+        <Button Content="关闭" HorizontalAlignment="Center" Margin="0,160,0,10" VerticalAlignment="Top" Width="60" Height="20"  Click="Button_Click"/>
+        </Viewbox>
+    </Grid>
+</Window>
